@@ -3,7 +3,7 @@ import './App.css';
 import FizzBuzz from './components/FizzBuzz/FizzBuzz';
 
 function App() {
-  let [count, setCount] = useState(1);
+  const [count, setCount] = useState(1);
 
   useEffect(() => {
     const interval = setInterval(() => {
